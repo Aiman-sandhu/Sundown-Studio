@@ -1,0 +1,531 @@
+@media (max-width: 580px) {
+  #page1 {
+    min-height: 50vh;
+  }
+
+  nav {
+    padding: 3vw;
+  }
+  nav img {
+    width: 100px;
+  }
+  #center {
+    height: 56vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #hero-2 {
+    top: -20vw;
+  }
+  #left {
+    margin-top: 40vw;
+  }
+  #left h3 {
+    width: 50vw;
+    font-size: 4vw;
+    line-height: 4vw;
+  }
+  #right {
+    margin-top: -25vw;
+  }
+  #hero-1 {
+    bottom: 27vw;
+  }
+
+  video {
+    position: relative;
+    width: 92%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 17px;
+    margin-left: 4%;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+  }
+
+  #page2 {
+    width: 100%;
+    min-height: 120vh;
+    background-color: #efeae3;
+    position: relative;
+  }
+
+  #moving-line {
+    margin-top: -1vw;
+  }
+
+  #page2-bottom {
+    flex-direction: column;
+  }
+
+  #page2-right {
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+  }
+  #page2-left h1 {
+    font-size: 3.9vw;
+    line-height: 3.9vw;
+  }
+  #page2-right img {
+    width: 68vw;
+  }
+  #page2-right p {
+    font-size: 1.5rem;
+  }
+  .circle {
+    top: -111vw;
+  }
+  #circle {
+    bottom: 100vw;
+    left: 25vw;
+    z-index: 0;
+  }
+
+  #page3 {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    background-color: #efeae3;
+  }
+
+  .page3-container {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .elem1 {
+    height: 90vh;
+    width: 100%;
+  }
+
+  .overlay {
+    display: none;
+  }
+
+  .elem1:hover .overlay {
+    top: 0%;
+  }
+
+  .elem-text {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+
+  .elem-text h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .elem1 img {
+    margin-top: 2vw;
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+  }
+
+  #fixedimg {
+    display: none !important; /* hidden by default */
+  }
+  .page3-btn {
+    top: -2vw;
+    right: 0vw;
+    position: relative;
+    width: 50vw;
+    height: 8vw;
+    margin-bottom: -1vw;
+  }
+  .page4 {
+    min-height: auto;
+  }
+  .page4-con {
+    flex-direction: column;
+  }
+
+  .black-box {
+    margin: 5vw 3vw;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cap-text {
+    margin-top: 9vw;
+    text-align: left;
+  }
+
+  .cap-text h2 {
+    font-size: 6vw;
+  }
+
+  .cap2-text {
+    font-size: 3vw;
+    line-height: 4vw;
+  }
+  .page4-img {
+    width: 100%;
+    height: 100%;
+  }
+  .page5 {
+    min-height: 50vh;
+  }
+  .page6 {
+    width: 100%;
+    min-height: 80vh;
+  }
+
+  #footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 80vw;
+    background: black;
+    color: #efeae3;
+    z-index: 9;
+    overflow: hidden;
+  }
+
+  .footer-upper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vw 5vw;
+  }
+  .footer-upper h2 {
+    font-size: 4vw;
+    font-weight: 700;
+  }
+  #email {
+    margin-top: 12vw;
+  }
+  #email h6 {
+    font-size: 1vw;
+  }
+
+  .footer-lower div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer-lower div h5 {
+    font-size: 1vw;
+    font-weight: 100;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background: #efeae3;
+  }
+  #page1 {
+    min-height: 50vh;
+    padding: 0;
+  }
+ nav {
+  position: relative;
+  z-index: 2000;  /* nav ko full-scr ke upar lao */
+}
+
+nav h3 {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 1px solid #000;
+  border-radius: 25px;
+  padding: 8px 15px;
+  cursor: pointer;
+
+  position: relative; 
+  z-index: 3000;   /* full-scr ke upar forcefully */
+  background: #efeae3; /* background daal do taake contrast dikhe */
+}
+  .navPart-2 {
+    display: none;  /* mobile pe normal nav links hide */
+  }
+  nav img {
+    width: 100px;
+  }
+  #center {
+    height: 56vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #hero-2 {
+    top: -20vw;
+  }
+  #left {
+    margin-top: 40vw;
+  }
+  #left h3 {
+    width: 50vw;
+    font-size: 4vw;
+    line-height: 4vw;
+  }
+  #right {
+    margin-top: -25vw;
+  }
+  #hero-1 {
+    bottom: 27vw;
+  }
+
+  video {
+    position: relative;
+    width: 92%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 17px;
+    margin-left: 4%;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+  }
+
+  #page2 {
+    width: 100%;
+    min-height: 120vh;
+    background-color: #efeae3;
+    position: relative;
+  }
+
+  #moving-line {
+    margin-top: -1vw;
+  }
+
+  #page2-bottom {
+    flex-direction: column;
+  }
+
+  #page2-right {
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+  }
+
+  #page2-right img {
+    width: 68vw;
+  }
+  #page2-right p {
+    font-size: 1.5rem;
+  }
+  #circle {
+    bottom: 90vw;
+    left: 25vw;
+    z-index: 0;
+  }
+
+  #page3 {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    background-color: #efeae3;
+  }
+
+  .page3-container {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .elem1 {
+    height: 90vh;
+    width: 100%;
+  }
+
+  .overlay {
+    display: none;
+  }
+
+  .elem1:hover .overlay {
+    top: 0%;
+  }
+
+  .elem-text {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+
+  .elem-text h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .elem1 img {
+    margin-top: 2vw;
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+  }
+
+  #fixedimg {
+    display: none !important; /* hidden by default */
+  }
+  .page3-btn {
+    top: -2vw;
+    right: 0vw;
+    position: relative;
+    width: 50vw;
+    height: 8vw;
+    margin-bottom: -1vw;
+  }
+  .page4 {
+    min-height: auto;
+  }
+  .page4-con {
+    flex-direction: column;
+  }
+
+  .black-box {
+    margin: 5vw 3vw;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cap-text {
+    margin-top: 9vw;
+    text-align: left;
+  }
+
+  .cap-text h2 {
+    font-size: 6vw;
+  }
+
+  .cap2-text {
+    font-size: 3vw;
+    line-height: 4vw;
+  }
+  .page4-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .page6 {
+    width: 100%;
+    min-height: 60vw;
+  }
+
+  #footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 80vw;
+    background: black;
+    color: #efeae3;
+    z-index: 9;
+    overflow: hidden;
+  }
+
+  .footer-upper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vw 5vw;
+  }
+  .footer-upper h2 {
+    font-size: 4vw;
+    font-weight: 700;
+  }
+  #email {
+    margin-top: 12vw;
+  }
+  #email h6 {
+    font-size: 1vw;
+  }
+
+  .footer-lower div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer-lower div h5 {
+    font-size: 1vw;
+    font-weight: 100;
+  }
+}
+@media (max-width: 992px) {
+  #center {
+    height: 80vh;
+  }
+
+  #moving-line {
+    margin-top: -1vw;
+  }
+
+  #page2-bottom {
+    flex-direction: column;
+  }
+
+  #page2-right {
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+  }
+
+  #page2-right img {
+    width: 68vw;
+  }
+  #page2-right p {
+    font-size: 1.5rem;
+  }
+  #circle {
+    bottom: 15vw;
+  }
+
+  .page3 {
+    min-height: 100vh;
+  }
+  .page4 {
+    min-height: auto;
+  }
+  .page4-con {
+    flex-direction: column;
+  }
+
+  .black-box {
+    margin: 5vw 3vw;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cap-text {
+    margin-top: 9vw;
+    text-align: left;
+  }
+
+  .cap-text h2 {
+    font-size: 6vw;
+  }
+
+  .cap2-text {
+    font-size: 3vw;
+    line-height: 4vw;
+  }
+  .page4-img {
+    width: 100%;
+    height: 100%;
+  }
+  .page6 {
+    min-height: 60vw;
+  }
+  #footer {
+    min-height: 80vw;
+  }
+}
+@media (max-width: 992px) and (min-width: 769px) {
+  .footer-upper h2 {
+    font-size: 3vw;
+  }
+
+  #email h6 {
+    font-size: 1.5vw;
+  }
+
+  .footer-lower div h5 {
+    font-size: 1.2vw;
+  }
+}
